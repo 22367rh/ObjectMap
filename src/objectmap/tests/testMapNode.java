@@ -25,6 +25,8 @@ public class testMapNode extends TestCase {
 	{
 		if (!MN1.toString().equals("Comp 103"))
 			fail("toString failed to return node name.");
+		if (!MN2.toString().equals("Comp 104"))
+			fail("toString failed to return node name.");
 	}
 
 }
